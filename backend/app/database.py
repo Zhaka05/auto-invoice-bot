@@ -1,13 +1,5 @@
 import psycopg2
 import os
-# Connect to your PostgreSQL DB
-# conn = psycopg2.connect(
-#     dbname="testdb",
-#     user="postgres",
-#     password="zh051005",
-#     host="localhost",  # or your host
-#     port="5432"         # default PostgreSQL port
-# )
 
 def get_connection():
     return psycopg2.connect(
